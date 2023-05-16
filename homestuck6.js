@@ -226,6 +226,8 @@ const discordReplaces = {
   grey: "[0;30m",
 }
 
+const hphCSS = ''//the non charater aspects of the css go here
+
 // Convert Work styles
 const workStyleFunctions = [
   // Mspfa
@@ -300,6 +302,14 @@ const workStyleFunctions = [
     }).replace(regParagraph, `<p style="text-indent: 25px; margin: 0;">$1</p>`).replace(/<p style="text-indent: 25px; margin: 0;">([\n\s]*)([^<])/, `<p class="no-indent" style="margin: 0;">$1<span class="opener" style="float: left; font-size: 51px; font-family: FontStuck Extended, Homestuck-Regular, monospace; line-height: 0.7; margin-right: 4px; font-weight: bold">$2</span>`).replace(/<p style="text-indent: 25px; margin: 0;">([\n\s])*>/g, `<p class="command" style="margin: 15px 0px 15px 25px; font-family: Verdana, sans-serif;">$1>`)
 
     document.getElementById("finalEpilogue").innerHTML = epilogue.innerHTML
+  },
+  // Horse Piss Heart
+  output => {
+    const hph = document.getElementById("hph")
+    hph.innerHTML = output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>')
+    //curently replaces block texts with gf style texts, and paragraphs with expositon
+
+    document.getElementById("finalHph").innerHTML = hph.innerHTML
   }
 ]
 

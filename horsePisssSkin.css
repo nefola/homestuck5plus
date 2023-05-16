@@ -1,0 +1,432 @@
+#workskin .indent {
+    margin: 0 auto;
+    text-indent: 1em;
+}
+
+#workskin .expo,
+#workskin .text,
+#workskin .textmspa,
+#workskin .mspa,
+#workskin .pimage,
+#workskin .command,
+#workskin .intoBack,
+#workskin .outofBack {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workskin .background {
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #f7f7f7;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+#workskin .mspa {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 650px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: courier new, courier;
+    font-weight: bold;
+    color: #000000;
+    background: #ffffff;
+}
+
+#workskin .intoBack {
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(0deg, #ffffff, 30%, #f7f7f7);
+}
+
+#workskin .outofBack {
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(0deg, #f7f7f7, 70%, #ffffff);
+}
+
+#workskin .name {
+    text-align: center;
+    font-family: courier new, courier;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#workskin .pimage {
+    text-align: center;
+    min-width: 98%;
+    max-width: 98%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#workskin .mobileimage {
+    max-width: 100%;
+    text-align: center;
+}
+
+#workskin .image {
+    max-width: 100%;
+    text-align: center;
+}
+
+#workskin .ao3like {
+    font: Lucida Grande, Lucida Sans Unicode, Verdana, Helvetica, sans-serif;
+    width: 88%;
+    font-size: 1em;
+    padding-top: 0px;
+}
+
+#worksin .glasses {
+    padding-top: 20px;
+    margin-top: -50px;
+}
+
+#workskin .block {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: courier new, courier;
+    text-align: left;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dashed #808080;
+    background-color: #f3f3f3;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+#workskin .scratch {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: courier new, courier;
+    text-align: left;
+    color: #ffffff;
+    width: 90%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#workskin .command {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    max-width: 650px;
+    font-family: Verdana, sans-serif;
+    color: #000000;
+}
+
+#workskin .text {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 610px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .textmspa {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 610px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .text2 {
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 10px;
+    max-width: 610px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .text3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .title {
+    text-align: center;
+    font-weight: normal;
+    max-width: 650px;
+    margin: auto;
+    font-size: 30px;
+    font-family: times new roman;
+    color: #000000;
+}
+
+#workskin .expo {
+    text-align: left;
+    font-weight: normal;
+    font-size: 21px;
+    max-width: 650px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: times new roman;
+    color: #000000;
+}
+
+#workskin .expo2 {
+    text-align: left;
+    font-weight: normal;
+    max-width: 650px;
+    font-size: 21px;
+    color: #000000;
+}
+
+#workskin .fakenotes {
+    background: transparent;
+    border-bottom: 1px solid;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 1.286em;
+    line-height: 1;
+    width: 90%;
+    padding-bottom: 0px;
+}
+
+#workskin .aradia {
+    color: #a10000;
+}
+
+#workskin .calliope {
+    color: #929292;
+}
+
+#workskin .caliborn {
+    color: #323232;
+}
+
+#workskin .captor {
+    color: #a1a100;
+}
+
+#workskin .dad {
+    color: #4b4b4b;
+}
+
+#workskin .dave {
+    color: #e00707;
+}
+
+#workskin .dave2 {
+    color: #e00707;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .davepeta {
+    color: #416600;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .dirk {
+    color: #f2a400;
+}
+
+#workskin .dirkGHead {
+    color: #f98200;
+    font-weight: bold;
+}
+
+#workskin .dirkGHead2 {
+    color: #f98200;
+}
+
+#workskin .will {
+    color: #e52006;
+}
+
+#workskin .lalondeGHead {
+    color: #da53e6;
+    font-weight: bold;
+}
+
+#workskin .rll1 {
+    color: #ed942e;
+}
+
+#workskin .rll1strike {
+    text-decoration: #ed942e line-through;
+}
+
+#workskin .rll2 {
+    color: #e8845c;
+}
+
+#workskin .rll3 {
+    color: #e67c73;
+}
+
+#workskin .ruth {
+    color: #e4738a;
+}
+
+#workskin .docscratch {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: courier new, courier;
+    webkit-text-stroke: 10px black;
+}
+
+#workskin .jade {
+    color: #4ac925;
+}
+
+#workskin .jade2 {
+    color: #4ac925;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .jake {
+    color: #1f9400;
+}
+
+#workskin .jane {
+    color: #0097d7;
+}
+
+#workskin .juneska {
+    color: #033e9d;
+}
+
+#workskin .june {
+    color: #0715cd;
+}
+
+#workskin .june2 {
+    color: #033e9d;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .karkat {
+    color: #626262;
+}
+
+#workskin .jadeblood {
+    color: #00814f;
+}
+
+#workskin .victim {
+    color: #00814f;
+    background: #00814f;
+}
+
+#workskin .kanaya2 {
+    color: #008141;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .kankri {
+    color: #ff0000;
+}
+
+#workskin .rose {
+    color: #b536da;
+}
+
+#workskin .rose2 {
+    color: #b536da;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .roxy {
+    color: #ff6ff2;
+}
+
+#workskin .roxy2 {
+    color: #ff6ff2;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .kyle {
+    color: #00723F;
+}
+
+#workskin .terezi {
+    color: #008282;
+}
+
+#workskin .terezi2 {
+    color: #008282;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .title {
+    color: #000000;
+    font-size: 35px;
+    font-family: pacifico;
+}
+
+#workskin .vriska {
+    color: #005682;
+}
+
+#workskin .vriska3 {
+    color: #005682;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .vriska2 {
+    color: #005682;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: courier new, courier;
+}
+
+#workskin .fuschia {
+    color: #77003c;
+}
