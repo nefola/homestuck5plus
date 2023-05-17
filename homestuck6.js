@@ -42,7 +42,7 @@ const defultFormats = {
     chum: "timaeusTestified"
   },
   ruth: {
-    color: "e4738a",
+    color: "#e4738a",
     names: ["Ruth", "TT+"],
     chum: "transgirlTestified"
   },
@@ -536,7 +536,7 @@ const workStyleFunctions = [
   // Horse Piss Heart
   output => {
     const hph = document.getElementById("hph")
-    hph.innerHTML = "<div class='background'>" + output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>').replace('<div class=background></div>') + + "</div>"
+    hph.innerHTML = "<div class='background'>" + output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>').replace('<div class=background></div>') + "</div>"
     //curently replaces block texts with gf style texts, and paragraphs with expositon
 
     document.getElementById("finalHph").innerHTML = hph.innerHTML
