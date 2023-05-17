@@ -1,5 +1,5 @@
 const defultFormats = {
-  john: {
+  june: {
     color: "#0715cd",
     names: ["John", "June", "EB"],
     chum: "ectoBiologist"
@@ -40,6 +40,11 @@ const defultFormats = {
     color: "#f2a400",
     names: ["Dirk", "TT-", "Davesprite"],
     chum: "timaeusTestified"
+  },
+  ruth: {
+    color: "e4738a",
+    names: ["Ruth", "TT+"],
+    chum: "transgirlTestified"
   },
   AR: {
     color: "#e00707",
@@ -214,6 +219,231 @@ const ao3CSS = `#workskin .block {
   color: #000000;
 }`
 
+const hphCss = `#workskin .indent {
+    margin: 0 auto;
+    text-indent: 1em;
+}
+
+#workskin .expo,
+#workskin .text,
+#workskin .textmspa,
+#workskin .mspa,
+#workskin .pimage,
+#workskin .command,
+#workskin .intoBack,
+#workskin .outofBack {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workskin .background {
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #f7f7f7;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+#workskin .mspa {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 650px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: courier new, courier;
+    font-weight: bold;
+    color: #000000;
+    background: #ffffff;
+}
+
+#workskin .intoBack {
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(0deg, #ffffff, 30%, #f7f7f7);
+}
+
+#workskin .outofBack {
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(0deg, #f7f7f7, 70%, #ffffff);
+}
+
+#workskin .name {
+    text-align: center;
+    font-family: courier new, courier;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#workskin .pimage {
+    text-align: center;
+    min-width: 98%;
+    max-width: 98%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#workskin .mobileimage {
+    max-width: 100%;
+    text-align: center;
+}
+
+#workskin .image {
+    max-width: 100%;
+    text-align: center;
+}
+
+#workskin .ao3like {
+    font: Lucida Grande, Lucida Sans Unicode, Verdana, Helvetica, sans-serif;
+    width: 88%;
+    font-size: 1em;
+    padding-top: 0px;
+}
+
+#worksin .glasses {
+    padding-top: 20px;
+    margin-top: -50px;
+}
+
+#workskin .block {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: courier new, courier;
+    text-align: left;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dashed #808080;
+    background-color: #f3f3f3;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+#workskin .scratch {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: courier new, courier;
+    text-align: left;
+    color: #ffffff;
+    width: 90%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#workskin .command {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    max-width: 650px;
+    font-family: Verdana, sans-serif;
+    color: #000000;
+}
+
+#workskin .text {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 610px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .textmspa {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 610px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .text2 {
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 10px;
+    max-width: 610px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .text3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: courier new, courier;
+    color: #000000;
+}
+
+#workskin .title {
+    text-align: center;
+    font-weight: normal;
+    max-width: 650px;
+    margin: auto;
+    font-size: 30px;
+    font-family: times new roman;
+    color: #000000;
+}
+
+#workskin .expo {
+    text-align: left;
+    font-weight: normal;
+    font-size: 21px;
+    max-width: 650px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: times new roman;
+    color: #000000;
+}
+
+#workskin .expo2 {
+    text-align: left;
+    font-weight: normal;
+    max-width: 650px;
+    font-size: 21px;
+    color: #000000;
+}
+
+#workskin .fakenotes {
+    background: transparent;
+    border-bottom: 1px solid;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 1.286em;
+    line-height: 1;
+    width: 90%;
+    padding-bottom: 0px;
+}`
+
 const discordReplaces = {
   normal: "[0;29m",
   white: "[0;37m",
@@ -306,10 +536,11 @@ const workStyleFunctions = [
   // Horse Piss Heart
   output => {
     const hph = document.getElementById("hph")
-    hph.innerHTML = output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>')
+    hph.innerHTML = "<div class='background'>" + output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>').replace('<div class=background></div>') + + "</div>"
     //curently replaces block texts with gf style texts, and paragraphs with expositon
 
     document.getElementById("finalHph").innerHTML = hph.innerHTML
+    document.getElementById("finalHphCSS").value = document.getElementById("genHphStyle").innerHTML
   }
 ]
 
@@ -735,6 +966,9 @@ const genCSSstyle = () => {
   const genMspfaStyle = document.getElementById("genMspfaStyle")
   genMspfaStyle.innerHTML = ""
 
+  const genHphStyle = document.getElementById("genHphStyle")
+  genHphStyle.innerHTML = hphCSS
+
   // Discord
   const discordCols = {
     // normal: "#dcddde",
@@ -779,7 +1013,9 @@ const genCSSstyle = () => {
 #gdocs .${spanClass}, #finalGdocs .${spanClass} { color: ${format.color} }
 #gdocs .${spanClass}-plain, #finalGdocs .${spanClass}-plain { color: ${format.color}; }
     `
-    
+    genHphStyle.innerHTML += `
+    #workskin .${spanClass} { color: ${format.color};}`
+
     // Discord    
     if (format.color) {
       let closestCol = [1000, "grey"]
