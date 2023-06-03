@@ -219,7 +219,7 @@ const ao3CSS = `#workskin .block {
   color: #000000;
 }`
 
-const hphCss = `#workskin .indent {
+const hphCSS = `#workskin .indent {
     margin: 0 auto;
     text-indent: 1em;
 }
@@ -365,7 +365,6 @@ const hphCss = `#workskin .indent {
     font-weight: bold;
     font-size: 18px;
     font-family: courier new, courier;
-    color: #000000;
 }
 
 #workskin .textmspa {
@@ -422,7 +421,6 @@ const hphCss = `#workskin .indent {
     padding-top: 2px;
     padding-bottom: 2px;
     font-family: times new roman;
-    color: #000000;
 }
 
 #workskin .expo2 {
@@ -456,7 +454,6 @@ const discordReplaces = {
   grey: "[0;30m",
 }
 
-const hphCSS = ''//the non charater aspects of the css go here
 
 // Convert Work styles
 const workStyleFunctions = [
@@ -536,7 +533,7 @@ const workStyleFunctions = [
   // Horse Piss Heart
   output => {
     const hph = document.getElementById("hph")
-    hph.innerHTML = "<div class='background'>" + output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>').replace('<div class=background></div>') + "</div>"
+    hph.innerHTML = "<div class='background'>" + output.replace(regParaBlock, '<p class="text">$1</p>').replace(regParagraph, '<p class=expo>$1</p>').replace('-plain','') + "</div>"
     //curently replaces block texts with gf style texts, and paragraphs with expositon
 
     document.getElementById("finalHph").innerHTML = hph.innerHTML
@@ -738,7 +735,7 @@ const transcribe = () => {
   outputDiv.innerHTML = output
 
   document.getElementById("finalAo3Html").value = outputDiv.innerHTML
-  document.getElementById("finalAo3CSS").value = document.getElementById("genAo3Style").innerHTML
+  document.getElementById("finalAo3CSS").value = outputDiv.innerHTML
 
   setSkinStatus(usedFormats)
   convertWork(output)
@@ -968,6 +965,8 @@ const genCSSstyle = () => {
 
   const genHphStyle = document.getElementById("genHphStyle")
   genHphStyle.innerHTML = hphCSS
+ // const rendHphStyle = document.getElementById("usedHphStyle")
+ // rendHphStyle.innerHTML = hphCSS
 
   // Discord
   const discordCols = {
@@ -1002,19 +1001,22 @@ const genCSSstyle = () => {
   for (const [spanClass, format] of Object.entries(userFormats)) {
     // CSS
     genAo3Style.innerHTML += `
-#workskin .${spanClass} { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: ${format.color}; }
-#workskin .${spanClass}-plain { color: ${format.color}; }
+    #workskin .${spanClass} { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: ${format.color}; }
+    #workskin .${spanClass}-plain { color: ${format.color}; }
     `
     genMspfaStyle.innerHTML += `
     #slide .${spanClass} { color: ${format.color} }
     #slide .${spanClass}-plain { color: ${format.color}; }
         `
     genGdocsStyle.innerHTML += `
-#gdocs .${spanClass}, #finalGdocs .${spanClass} { color: ${format.color} }
-#gdocs .${spanClass}-plain, #finalGdocs .${spanClass}-plain { color: ${format.color}; }
+    #gdocs .${spanClass}, #finalGdocs .${spanClass} { color: ${format.color} }
+    #gdocs .${spanClass}-plain, #finalGdocs .${spanClass}-plain { color: ${format.color}; }
     `
+    //rendHphStyle.innerHTML += `
+    // #hph .${spanClass} { color: ${format.color};}`
+
     genHphStyle.innerHTML += `
-    #workskin .${spanClass} { color: ${format.color};}`
+    #hph .${spanClass} { color: ${format.color};}`
 
     // Discord    
     if (format.color) {

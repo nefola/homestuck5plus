@@ -368,7 +368,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   font-family: courier new, courier;
-  color: #000000;
 }
 
 #hph .textmspa {
@@ -425,7 +424,6 @@ body {
   padding-top: 2px;
   padding-bottom: 2px;
   font-family: times new roman;
-  color: #000000;
 }
 
 #hph .expo2 {
@@ -447,212 +445,10 @@ body {
   padding-bottom: 0px;
 }
 
-#hph .aradia {
-  color: #a10000;
-}
-
-#hph .calliope {
-  color: #929292;
-}
-
-#hph .caliborn {
-  color: #323232;
-}
-
-#hph .captor {
-  color: #a1a100;
-}
-
-#hph .dad {
-  color: #4b4b4b;
-}
-
-#hph .dave {
-  color: #e00707;
-}
-
-#hph .dave2 {
-  color: #e00707;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .davepeta {
-  color: #416600;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .dirk {
-  color: #f2a400;
-}
-
-#hph .dirkGHead {
-  color: #f98200;
-  font-weight: bold;
-}
-
-#hph .dirkGHead2 {
-  color: #f98200;
-}
-
-#hph .will {
-  color: #e52006;
-}
-
-#hph .lalondeGHead {
-  color: #da53e6;
-  font-weight: bold;
-}
-
-#hph .rll1 {
-  color: #ed942e;
-}
-
-#hph .rll1strike {
-  text-decoration: #ed942e line-through;
-}
-
-#hph .rll2 {
-  color: #e8845c;
-}
-
-#hph .rll3 {
-  color: #e67c73;
-}
-
-#hph .ruth {
-  color: #e4738a;
-}
-
-#hph .docscratch {
-  color: #ffffff;
-  font-weight: bold;
-  font-family: courier new, courier;
-  webkit-text-stroke: 10px black;
-}
-
-#hph .jade {
-  color: #4ac925;
-}
-
-#hph .jade2 {
-  color: #4ac925;
-  font-size: 19px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .jake {
-  color: #1f9400;
-}
-
-#hph .jane {
-  color: #0097d7;
-}
-
-#hph .juneska {
-  color: #033e9d;
-}
-
-#hph .june {
-  color: #0715cd;
-}
-
-#hph .june2 {
-  color: #033e9d;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .karkat {
-  color: #626262;
-}
-
-#hph .jadeblood {
-  color: #00814f;
-}
-
-#hph .victim {
-  color: #00814f;
-  background: #00814f;
-}
-
-#hph .kanaya2 {
-  color: #008141;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .kankri {
-  color: #ff0000;
-}
-
-#hph .rose {
-  color: #b536da;
-}
-
-#hph .rose2 {
-  color: #b536da;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .roxy {
-  color: #ff6ff2;
-}
-
-#hph .roxy2 {
-  color: #ff6ff2;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .kyle {
-  color: #00723F;
-}
-
-#hph .terezi {
-  color: #008282;
-}
-
-#hph .terezi2 {
-  color: #008282;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
 #hph .title {
   color: #000000;
   font-size: 35px;
   font-family: pacifico;
-}
-
-#hph .vriska {
-  color: #005682;
-}
-
-#hph .vriska3 {
-  color: #005682;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .vriska2 {
-  color: #005682;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: courier new, courier;
-}
-
-#hph .fuschia {
-  color: #77003c;
 }
 
 /* Options Hud */
