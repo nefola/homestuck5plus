@@ -537,7 +537,7 @@ const workStyleFunctions = [
     //curently replaces block texts with gf style texts, and paragraphs with expositon
 
     document.getElementById("finalHph").innerHTML = hph.innerHTML
-    document.getElementById("finalHphCSS").value = document.getElementById("genHphStyle").innerHTML
+    document.getElementById("finalHphCSS").value = document.getElementById("genHphStyle").innerHTML.replace('#hph','#workskin') //this replace is trying to fix the export bug, it kinda works ask flare about it
   }
 ]
 
